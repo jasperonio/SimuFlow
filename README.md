@@ -8,6 +8,8 @@ Per verificare e testare il codice da visionare, sono forniti:
 È possibile clonare o scaricare l'intero repository --> git clone https://github.com/jasperonio/SimuFlow
  - Creare un virtualenv --> python -m venv nome_cartella
  - Copiare e incollare requirements.txt e SimuFlow.py
+ - Attivare il visrtualenv --> Script\activate.bat
+ - Selezionare l'interprete --> Scripts\python.exe
  - Installare le dipendenze --> pip install -r requirements.txt
  - Run --> python SimuFlow.py
 
