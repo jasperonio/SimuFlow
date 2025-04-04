@@ -5,10 +5,10 @@ Per verificare e testare il codice da visionare, sono forniti:
   - il file requirements.txt con i moduli da installare;
   - il file SimuFlow.py, che contiene il codice integrale commentato.
 
-È possibile clonare l'intero repository --> git clone https://github.com/jasperonio/SimuFlow
+È possibile clonare o scaricare l'intero repository --> git clone https://github.com/jasperonio/SimuFlow
  - Creare un virtualenv --> python -m venv nome_cartella
  - Installare le dipendenze --> pip install -r requirements.txt
+ - Run --> python SimuFlow.py
 
-È possibile inoltre, all'indirizzo https://mybinder.org/v2/gh/jasperonio/SimuFlow/HEAD testare il codice live.
+È fornita anche l'applicazione, Simuflow: https://drive.google.com/drive/folders/19f0_Y6RJGS0MN9aANiWnmrmG8Q2crweO?usp=sharing
 
-È fornito anche l'eseguibile dell'applicazione, Simuflow.
