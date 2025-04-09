@@ -16,6 +16,7 @@ Per verificare e testare il codice da visionare, sono forniti:
      - Installare le dipendenze --> **pip install -r requirements.txt**
      - Run --> **python SimuFlow.py**
 3. Per eseguire il codice live, è possibile all'indirizzo: *https://colab.research.google.com/drive/1dR4kW4K8hR8aQYlLQnuHe9do9HcbiFP4?usp=sharing*
+   - Accedere con un account google
    - Posizionarsi nel primo box di codice con il commento **''' Step 1: Installazione del modulo pyfiglet per esecuzione in questo ambiente, che non fa parte del codice vero e proprio'''** e premere l'icona Play
    - Al termine, posizionarsi sul secondo box di codice con il commento **''' Step2:  Codice da verificare'''** **.
   
