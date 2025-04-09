@@ -11,7 +11,7 @@ Per verificare e testare il codice da visionare, sono forniti:
      - Creare un virtualenv --> **python -m venv nome_cartella**
      - Copiare e incollare **requirements.txt** e **SimuFlow.py** nella cartella precedentemente creata
      - Attivare il virtualenv --> **Scripts\activate.bat**
-     - Selezionare l'interprete (in caso di Visual Studio Code): *Ctrl + Shift + P --> Python: Select Interpreter --> Enter Interpreter Path --> Scripts\python.exe*
+     - Selezionare l'interprete (in caso di Visual Studio Code): *Ctrl + Shift + P --> Python: Select Interpreter --> Enter Interpreter Path --> path_della_cartella_creata\Scripts\python.exe*
      - Installare le dipendenze --> **pip install -r requirements.txt**
      - Run --> **python SimuFlow.py**
 2. È possibile visionare il codice ed eseguirlo live all'indirizzo: *https://colab.research.google.com/drive/1dR4kW4K8hR8aQYlLQnuHe9do9HcbiFP4?usp=sharing*
