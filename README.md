@@ -5,7 +5,7 @@ Per verificare e testare il codice da visionare, sono forniti:
   - il file **requirements.txt** con i moduli da installare;
   - il file **SimuFlow.py**, che contiene il codice integrale commentato.
 
-È possibile scaricare l'intero repository --> **https://github.com/jasperonio/SimuFlow.git**
+È possibile scaricare l'intero repository --> **https://github.com/jasperonio/SimuFlow/archive/refs/heads/main.zip**
 
 1.  In un ambiente già configurato, è necessario solamente installare i moduli aggiuntivi con il comando **pip install -r requirements.txt** e lanciare il programm con **python SimuFlow.py**
 2.  In caso di utilizzo di un virtualenv:
