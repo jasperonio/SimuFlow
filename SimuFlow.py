@@ -61,7 +61,7 @@ def genera_configurazione():
         # Percentuale e generazione casuale del numero totale dei macchinari posseduti dall'azienda, nella misura di un terzo rispetto ai dipendenti totali.
         percentuale_macchinari_totale = 100                 # Percentuale dei macchinari totali.
         macchinari_totale = math.floor(dipendenti['Totale dipendenti'] / 3)
-        # Generazione casuale della percentuale e calcolo effettivo dei macchinari in manutenzione, len range tra 0 e 15.
+        # Generazione casuale della percentuale e calcolo effettivo dei macchinari in manutenzione, nel range tra 0 e 15.
         percentuale_macchinari_manutenzione = random.randint(0, 15)
         macchinari_manutenzione = math.floor(macchinari_totale * (percentuale_macchinari_manutenzione / 100))
         # Calcolo dei macchinari effettivamente impiegabili e relativa percentuale, arrotondata per difetto.
@@ -98,6 +98,8 @@ def calcolo_tempo_produzione(dipendenti, prodotti, fasi_produzione, macchinari):
         # Aggiornamento del tempo unitario di produzione di un prodotto.
         for prodotto, dati in prodotti.items():     
             dati['Tempo Unitario'] = round(dati['Tempo Unitario'] / fattore_riduzione ,1)
+    else:
+        fattore_riduzione = 0
     # Tempo di una giorata lavorativa (16h) in secondi (57.600).    
     tempo_lavorativo_giornaliero = 16 * 3600
     # Linee di produzione che lavorano contemporaneamente.
